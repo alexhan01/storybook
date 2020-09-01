@@ -1,13 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
+import Logo from "./logo"
 import style from "./navbar.module.css"
 
-const Navbar = ({ siteTitle, menuLinks }) => (
+const Navbar = ({ menuLinks }) => (
     <div className={style.topcontainer}>
         <div className={style.container}>
             <div className={style.logobox}>
-                <h1 className={style.logotext}>{ siteTitle }</h1>
+                <Logo />
             </div>
             <div className={style.nav}>
                 <nav>

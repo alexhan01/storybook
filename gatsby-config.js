@@ -59,6 +59,7 @@ module.exports = {
         fonts: [
             {
               family: `Kirang Haerang`,
+              variants: [`400`, `700`]
             },
         ],
       },
