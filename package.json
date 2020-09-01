@@ -22,6 +22,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.1.1",
+    "typeface-cormorant-garamond": "0.0.72",
     "typeface-kirang-haerang": "0.0.61"
   },
   "devDependencies": {

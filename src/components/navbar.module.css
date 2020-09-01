@@ -3,6 +3,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
+    /* display: none; */
 }
 
 .container {
@@ -49,4 +50,5 @@
     padding: 1rem 1rem;
     margin: 1rem 1rem;
     background-color: orange;
+    font-family: 'Cormorant Garamond';
 }
