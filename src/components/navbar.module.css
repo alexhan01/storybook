@@ -1,27 +1,51 @@
 .topcontainer {
-    margin: auto;
+    background-color: purple;
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 .container {
-    margin: auto;
+    background-color: red;
+    margin: 1.5rem 1.5rem;
 }
 
-.logo {
-    margin: auto;
+.logobox {
+    background-color: yellow;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.logotext {
+    text-align: center;
+    background-color: blue;
+    padding: 1rem 1rem;
+    font-family: 'Kirang Haerang';
 }
 
 .nav {
-    margin: auto;
+    background-color: antiquewhite;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
 }
 
 .navelement {
-    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
 }
 
 .ftr {
-    margin: auto;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    background-color: yellowgreen;
 }
 
 .ftrelement {
-    margin: auto;
+    text-align: center;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    background-color: orange;
 }
