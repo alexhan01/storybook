@@ -1,7 +1,5 @@
 ---
 slug: "/experience"
 title: "experience"
+description: "test"
 ---
-
-### Experience
-- This is the experience row

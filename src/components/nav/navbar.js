@@ -42,10 +42,6 @@ const Navbar = () => {
                                 <li key={link.name}>
                                     <Link
                                         className={styles.Link}
-                                        activeClassName={styles.activeLink}
-                                        style={{
-                                            color: "white"
-                                        }} 
                                         to={link.link}
                                     >
                                         {link.name}

@@ -19,12 +19,7 @@ class Sidebar extends Component {
     }
 
     toggleMenu() {
-        if (this.childMenu.open === true) {
-            this.childMenu.close()
-        } else {
-            this.childMenu.open()
-        }
-        // this.childMenu.open()
+        this.childMenu.open()
     }
 }
 

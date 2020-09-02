@@ -7,15 +7,24 @@ function Experience() {
         query ExperienceQuery {
             allMarkdownRemark(filter: {frontmatter: {title: {eq: "experience"}}}) {
                 nodes {
-                    html
+                    frontmatter {
+                        title
+                        description
+                    }
+                    fields {
+                        slug
+                    }
                 }
             }
         }
     `)
-    const description = data.allMarkdownRemark.nodes[0].html
+    const experienceData = data.allMarkdownRemark.nodes[0]
+
     return (
         <div>
-            <span dangerouslySetInnerHTML={{ __html: description }} />
+            <p>{experienceData.frontmatter.title}</p>
+            <p>{experienceData.frontmatter.description}</p>
+            {/* <span dangerouslySetInnerHTML={{ __html: description }} /> */}
         </div>
     )
 }
