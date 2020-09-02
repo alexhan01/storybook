@@ -3,10 +3,10 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
+import Navigation from "./navigation"
 import "./layout.css"
 
 const Layout = ({ children }) => {
-  const [navbarDisplay] = useState(false);
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -27,6 +27,7 @@ const Layout = ({ children }) => {
       <Navbar
         menuLinks={data.site.siteMetadata.menuLinks}
       />
+      {/* <Navigation menuLinks={data.site.siteMetadata.menuLinks}/> */}
       <div
         style={{
           margin: `0 auto`,

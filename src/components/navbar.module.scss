@@ -1,9 +1,16 @@
 .topcontainer {
     background-color: purple;
     position: absolute;
+    width: 25vw;
     top: 0;
     bottom: 0;
-    /* display: none; */
+    display: hidden;
+    opacity: 0;
+    
+    &.open {
+        visibility: overlay;
+        opacity: 0.8;
+      }
 }
 
 .container {
