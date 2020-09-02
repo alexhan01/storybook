@@ -24,7 +24,6 @@ function Experience() {
     return (
         <div>
             <PageHeading data={experienceData.frontmatter.title}/>
-            <p>{experienceData.frontmatter.title}</p>
             <p>{experienceData.frontmatter.description}</p>
         </div>
     )

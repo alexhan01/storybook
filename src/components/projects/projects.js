@@ -3,6 +3,7 @@ import React from "react"
 import styles from "./projects.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
 import ProjectModule from "./projectModule/projectModule"
+import PageHeading from "../../components/PageHeading"
 
 function Projects() {
     const data = useStaticQuery(graphql`
@@ -27,6 +28,9 @@ function Projects() {
 
     return (
         <>
+        <div>
+            <PageHeading data="Projects"/>
+        </div>
         <div>
             {projects.map((project) => (
                 <ProjectModule project = {project.frontmatter} />

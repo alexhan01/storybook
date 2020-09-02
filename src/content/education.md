@@ -1,7 +1,5 @@
 ---
 slug: "/education"
 title: "Education"
+description: "test"
 ---
-
-### Education
-- This is the first row
