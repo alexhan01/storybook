@@ -1,6 +1,6 @@
 ---
 slug: "/about"
-title: "about"
+title: "About"
 ---
 
 ### About

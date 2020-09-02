@@ -1,11 +1,12 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styles from "./experience.module.scss"
+import PageHeading from "../../components/PageHeading"
 
 function Experience() {
     const data = useStaticQuery(graphql`
         query ExperienceQuery {
-            allMarkdownRemark(filter: {frontmatter: {title: {eq: "experience"}}}) {
+            allMarkdownRemark(filter: {frontmatter: {title: {eq: "Experience"}}}) {
                 nodes {
                     frontmatter {
                         title
@@ -22,9 +23,9 @@ function Experience() {
 
     return (
         <div>
+            <PageHeading data={experienceData.frontmatter.title}/>
             <p>{experienceData.frontmatter.title}</p>
             <p>{experienceData.frontmatter.description}</p>
-            {/* <span dangerouslySetInnerHTML={{ __html: description }} /> */}
         </div>
     )
 }

@@ -1,5 +1,5 @@
 ---
 slug: "/experience"
-title: "experience"
+title: "Experience"
 description: "test"
 ---

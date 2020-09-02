@@ -1,6 +1,6 @@
 ---
 slug: "/education"
-title: "education"
+title: "Education"
 ---
 
 ### Education

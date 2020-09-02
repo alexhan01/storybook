@@ -30,7 +30,8 @@
     "react-helmet": "^6.1.0",
     "styled-components": "^5.1.1",
     "typeface-cormorant-garamond": "0.0.72",
-    "typeface-kirang-haerang": "0.0.61"
+    "typeface-kirang-haerang": "0.0.61",
+    "typeface-open-sans": "0.0.75"
   },
   "devDependencies": {
     "prettier": "2.1.0"

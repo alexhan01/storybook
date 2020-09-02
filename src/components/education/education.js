@@ -5,7 +5,7 @@ import styles from "./education.module.scss"
 function Education() {
     const data = useStaticQuery(graphql`
         query EducationQuery {
-            allMarkdownRemark(filter: {frontmatter: {title: {eq: "education"}}}) {
+            allMarkdownRemark(filter: {frontmatter: {title: {eq: "Education"}}}) {
                 nodes {
                     html
                 }

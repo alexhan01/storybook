@@ -5,7 +5,7 @@ import styles from "./about.module.scss"
 function About() {
     const data = useStaticQuery(graphql`
         query AboutQuery {
-            allMarkdownRemark(filter: {frontmatter: {title: {eq: "about"}}}) {
+            allMarkdownRemark(filter: {frontmatter: {title: {eq: "About"}}}) {
                 nodes {
                     html
                 }
