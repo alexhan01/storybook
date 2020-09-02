@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styles from "./experience.module.scss"
 import PageHeading from "../../components/PageHeading"
+import ContentPanel from "../ContentPanel"
 
 function Experience() {
     const data = useStaticQuery(graphql`
@@ -24,7 +25,7 @@ function Experience() {
     return (
         <div>
             <PageHeading data={experienceData.frontmatter.title}/>
-            <p>{experienceData.frontmatter.description}</p>
+            <ContentPanel data={experienceData.frontmatter.description}/>
         </div>
     )
 }

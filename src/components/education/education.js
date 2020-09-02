@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styles from "./education.module.scss"
 import PageHeading from "../../components/PageHeading"
+import ContentPanel from "../ContentPanel"
 
 function Education() {
     const data = useStaticQuery(graphql`
@@ -24,7 +25,7 @@ function Education() {
     return (
         <div>
             <PageHeading data={educationData.frontmatter.title}/>
-            <p>{educationData.frontmatter.description}</p>
+            <ContentPanel data={educationData.frontmatter.description}/>
         </div>
     )
 }
