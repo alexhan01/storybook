@@ -5,19 +5,19 @@ module.exports = {
     author: `Alex Han`,
       menuLinks:[
         {
-          name: 'home',
+          name: 'About',
           link: '/'
         },
         {
-          name: 'projects',
+          name: 'Projects',
           link: '/projects'
         },
         {
-          name: 'experience',
+          name: 'Experience',
           link: '/experience'
         },
         {
-          name: 'education',
+          name: 'Education',
           link: '/education'
         }
       ]

@@ -2,10 +2,10 @@
     background-color: purple;
     position: absolute;
     width: 25vw;
-    top: 0;
-    bottom: 0;
+    height: 100vh;
     display: overlay;
     opacity: 0.8;
+    overflow: hidden;
     
     &.open {
         display: overlay;
@@ -15,7 +15,9 @@
 
 .container {
     background-color: red;
-    margin: 1.5rem 1.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 100vh;
 }
 
 .logobox {
@@ -36,26 +38,37 @@
     background-color: antiquewhite;
     padding: 1rem 1rem;
     margin: 1rem 1rem;
+    text-decoration: none;
 }
 
 .navelement {
     text-align: center;
     text-decoration: none;
     background-color: black;
-    padding: 1rem 1rem;
-    margin: 1rem 1rem;
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
+    list-style-type: none;
 }
 
 .ftr {
-    padding: 1rem 1rem;
-    margin: 1rem 1rem;
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
     background-color: yellowgreen;
+    bottom: 0;
 }
 
 .ftrelement {
     text-align: center;
-    padding: 1rem 1rem;
-    margin: 1rem 1rem;
-    background-color: orange;
+    font-size: 90%;
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
     font-family: 'Cormorant Garamond';
+}
+
+.Link {
+    color: white;
+}
+
+.activeLink {
+    color: red;
 }

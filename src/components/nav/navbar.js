@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
 
 import Logo from "./logo"
@@ -11,11 +11,26 @@ import styles from "./navbar.module.scss"
 //     );
 // }
 
-const Navbar = ({ menuLinks }) => {
+const Navbar = () => {
+    const data = useStaticQuery(graphql`
+    query NavBarQuery {
+      site {
+        siteMetadata {
+          title
+          menuLinks {
+            name
+            link
+          }
+        }
+      }
+    }
+  `)
+
+  const menuLinks = data.site.siteMetadata.menuLinks
+
     return (
         <>
         <div className={styles.topcontainer}>
-        {/* <div className={`${styles.topcontainer} ${isOpen ? `${styles.open}` : ""}`}> */}
             <div className={styles.container}>
                 <div className={styles.logobox}>
                     <Logo />
@@ -25,7 +40,14 @@ const Navbar = ({ menuLinks }) => {
                         <ul className={styles.navelement}>
                             {menuLinks.map(link => (
                                 <li key={link.name}>
-                                    <Link style={{ color: `white`}} to={link.link}>
+                                    <Link
+                                        className={styles.Link}
+                                        activeClassName={styles.activeLink}
+                                        style={{
+                                            color: "white"
+                                        }} 
+                                        to={link.link}
+                                    >
                                         {link.name}
                                     </Link>
                                 </li>
@@ -35,8 +57,11 @@ const Navbar = ({ menuLinks }) => {
                 </div>
                 <div className={styles.ftr}>
                     <div className={styles.ftrelement}>
-                        <p>&#128296; with Gatsby | &#128640; with Netlify</p>
-                        <p>© {new Date().getFullYear()}</p>
+                        <p>
+                            &#128296; with Gatsby | &#128640; with Netlify
+                            <br/>
+                            © {new Date().getFullYear()}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -52,6 +77,25 @@ Navbar.propTypes = {
 Navbar.defaultProps = {
     siteTitle: ``,
 }
+
+// function Navigation(menuLinks) {
+//     const [toggled, setToggled] = useState(false);
+
+//     function handleMenuOpen() {
+//         setToggled(true);
+//     }
+
+//     function handleMenuClose() {
+//         setToggled(false);
+//     }
+
+//     return (
+//         <div>
+//             <button onClick={handleMenuOpen}>Menu</button>
+//             <Navbar show={!toggled}/>
+//         </div>
+//     )
+// }
 
 export default Navbar
 

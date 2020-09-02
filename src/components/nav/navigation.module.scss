@@ -1,0 +1,11 @@
+.menu {
+    visibility: hidden;
+    opacity: 0;
+
+    transition: all 0.35s;
+
+    &.open {
+        visibility: visible;
+        opacity: 0.8;
+    }
+}
