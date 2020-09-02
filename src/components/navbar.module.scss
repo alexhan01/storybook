@@ -4,16 +4,13 @@
     width: 25vw;
     top: 0;
     bottom: 0;
+    display: overlay;
+    opacity: 0.8;
     
     &.open {
         display: overlay;
         opacity: 0.8;
       }
-    
-    &.closed {
-        display: hidden;
-        opacity: 0;
-    }
 }
 
 .container {
