@@ -1,38 +1,51 @@
+.main {
+    // background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 93vh;
+}
+
 .container {
-    background-color: #FFFBDB;
+    // background-color: aliceblue;
     height: fit-content;
-    width: 50%;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: inherit;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .readmetext {
     font-family: IBM Plex Mono;
     font-style: italic;
     color: gray;
+    align-self: flex-start;
 }
 
 .content {
-    background-color: bisque;
+    background-color: aliceblue;
+    padding: 2em;
+    font-family: 'IBM Plex Mono';
+    font-size: 80%;
+    // font-family: 'Cormorant Garamond';
+    // border: 1em solid gray;
 }
 
 .socials {
-    background-color: aquamarine;
+    margin: 1em;
+    // background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.socialicon {
-    margin: 1em;
-    background-color: azure;
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-    text-align: center;
-    // line-height: 2em;
-    vertical-align: middle;
-    // padding: 0.5em;
+.social {
+    margin: 0.5em;
+    font-family: 'IBM Plex Mono';
+    text-decoration: none;
+    // background-color: azure;
 }

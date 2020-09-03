@@ -24,16 +24,16 @@ function Treemap({ width, height, data }) {
         d3.treemap()
             .size([width, height])
             .paddingTop(28)
-            .paddingRight(7)
+            .paddingLeft(7)
             .paddingInner(5)
             (root);
         
         const color = d3.scaleOrdinal()
-            .domain(["CPSC", "MATH", "STAT", "COMM", "ECON"])
-            .range(["#402D54", "#D18975", "#8FD175", "#8FD175", "#8FD175"]);
+            .domain(["CPSC", "MATH", "STAT", "COMM"])
+            .range(["#ffc7c7", "#ffe2e2", "#000000", "#8785a2"]);
 
         const opacity = d3.scaleLinear()
-            .domain([10, 30])
+            .domain([100, 400])
             .range([.5,1]);
 
         // select nodes
@@ -73,7 +73,7 @@ function Treemap({ width, height, data }) {
         // add the text
         nodeText.enter()
             .append("text")
-            .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
+            .attr("x", function(d){ return d.x0+15})    // +10 to adjust position (more right)
             .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
             .text(function(d){ return d.data.name })
             .attr("font-size", "10px")
@@ -87,23 +87,23 @@ function Treemap({ width, height, data }) {
         // add values
         nodeVals.enter()
             .append("text")
-            .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
+            .attr("x", function(d){ return d.x0+15})    // +10 to adjust position (more right)
             .attr("y", function(d){ return d.y0+35})    // +20 to adjust position (lower)
             .text(function(d){ return d.data.value })
             .attr("font-size", "11px")
             .attr("fill", "white")
-        
+                
         // add the parent node titles
         svg
-        .selectAll("titles")
-        .data(root.descendants().filter(function(d){return d.depth==1}))
-        .enter()
-        .append("text")
-            .attr("x", function(d){ return d.x0})
-            .attr("y", function(d){ return d.y0+21})
-            .text(function(d){ return d.data.name })
-            .attr("font-size", "19px")
-            .attr("fill",  function(d){ return color(d.data.name)} )
+            .selectAll("titles")
+            .data(root.descendants().filter(function(d){return d.depth==1}))
+            .enter()
+            .append("text")
+                .attr("x", function(d){ return d.x0})
+                .attr("y", function(d){ return d.y0+21})
+                .text(function(d){ return d.data.name })
+                .attr("font-size", "19px")
+                .attr("fill",  function(d){ return color(d.data.name) })
     }
 
     return (

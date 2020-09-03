@@ -21,9 +21,13 @@ function About() {
     `)
     const aboutData = data.allMarkdownRemark.nodes[0]
 
+    const unformattedData = aboutData.frontmatter.description
+
+    const formattedData = unformattedData.split(`\n\n`).map(paragraph => `<p>${paragraph.replace(/\n/g, `<br>`)}</p>`).join(``)
+
     return (
         <div>
-            <ReadMe data={aboutData.frontmatter.description}/>
+            <ReadMe data={formattedData}/>
         </div>
     )
 }

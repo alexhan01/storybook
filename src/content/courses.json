@@ -8,68 +8,49 @@
                     {
                         "name":"Computation, Programs, and Programming",
                         "group":"A",
-                        "value":28,
+                        "value":110,
                         "colname":"level3"
                     },
                     {
                         "name":"Models of Computation",
                         "group":"A",
-                        "value":19,
+                        "value":121,
                         "colname":"level3"
                     },
                     {
                         "name":"Software Construction",
                         "group":"C",
-                        "value":18,
+                        "value":210,
                         "colname":"level3"
                     },
                     {
                         "name":"Introduction to Computer Systems",
                         "group":"C",
-                        "value":19,
+                        "value":213,
                         "colname":"level3"
                     },
                     {
                         "name":"Basic Algorithms and Data Structures",
                         "group":"C",
-                        "value":19,
+                        "value":221,
                         "colname":"level3"
                     },
                     {
                         "name":"Internet Computing",
                         "group":"C",
-                        "value":19,
+                        "value":317,
                         "colname":"level3"
                     },
                     {
                         "name":"Computer Hardware and Operating Systems",
                         "group":"C",
-                        "value":19,
+                        "value":313,
                         "colname":"level3"
                     },
                     {
                         "name":"Numerical Approximation and Discretization",
                         "group":"C",
-                        "value":19,
-                        "colname":"level3"
-                    }
-                ],
-                "colname":"level2"
-            },
-            {
-                "name":"ECON",
-                "children":
-                [
-                    {
-                        "name":"Principles of Microeconomics",
-                        "group":"C",
-                        "value":14,
-                        "colname":"level3"
-                    },
-                    {
-                        "name":"Principles of Macroeconomics",
-                        "group":"A",
-                        "value":11,
+                        "value":303,
                         "colname":"level3"
                     }
                 ],
@@ -82,31 +63,31 @@
                     {
                         "name":"Differential Calculus",
                         "group":"C",
-                        "value":14,
+                        "value":104,
                         "colname":"level3"
                     },
                     {
                         "name":"Integral Calculus",
                         "group":"A",
-                        "value":11,
+                        "value":105,
                         "colname":"level3"
                     },
                     {
                         "name":"Honours Linear Algebra",
                         "group":"B",
-                        "value":15,
+                        "value":223,
                         "colname":"level3"
                     },
                     {
                         "name":"Honours Multivariable Calculus",
                         "group":"B",
-                        "value":16,
+                        "value":226,
                         "colname":"level3"
                     },
                     {
                         "name":"Applied Linear Algebra",
                         "group":"B",
-                        "value":16,
+                        "value":307,
                         "colname":"level3"
                     }
                 ],
@@ -119,31 +100,31 @@
                     {
                         "name":"Business Fundamentals",
                         "group":"C",
-                        "value":14,
+                        "value":101,
                         "colname":"level3"
                     },
                     {
                         "name":"Statistics in Business",
                         "group":"A",
-                        "value":11,
+                        "value":291,
                         "colname":"level3"
                     },
                     {
                         "name":"Quantitative Decision Making",
                         "group":"B",
-                        "value":15,
+                        "value":290,
                         "colname":"level3"
                     },
                     {
                         "name":"Management and Organizational Behaviour",
                         "group":"B",
-                        "value":16,
+                        "value":292,
                         "colname":"level3"
                     },
                     {
                         "name":"Career Fundamentals",
                         "group":"B",
-                        "value":16,
+                        "value":202,
                         "colname":"level3"
                     }
                 ],
@@ -156,7 +137,7 @@
                     {
                         "name":"Introduction to Probability",
                         "group":"D",
-                        "value":28,
+                        "value":302,
                         "colname":"level3"
                     }
                 ],

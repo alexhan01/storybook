@@ -36,7 +36,8 @@
     "typeface-cormorant-garamond": "0.0.72",
     "typeface-ibm-plex-mono": "0.0.61",
     "typeface-kirang-haerang": "0.0.61",
-    "typeface-open-sans": "0.0.75"
+    "typeface-open-sans": "0.0.75",
+    "word-wrap": "^1.2.3"
   },
   "devDependencies": {
     "prettier": "2.1.0"
