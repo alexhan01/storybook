@@ -7,49 +7,41 @@
                 [
                     {
                         "name":"CPSC",
-                        "group":"A",
                         "value":110,
                         "colname":"level3"
                     },
                     {
                         "name":"CPSC",
-                        "group":"A",
                         "value":121,
                         "colname":"level3"
                     },
                     {
                         "name":"CPSC",
-                        "group":"C",
                         "value":210,
                         "colname":"level3"
                     },
                     {
                         "name":"CPSC",
-                        "group":"C",
                         "value":213,
                         "colname":"level3"
                     },
                     {
                         "name":"CPSC",
-                        "group":"C",
                         "value":221,
                         "colname":"level3"
                     },
                     {
                         "name":"CPSC",
-                        "group":"C",
                         "value":317,
                         "colname":"level3"
                     },
                     {
                         "name":"CPSC",
-                        "group":"C",
                         "value":313,
                         "colname":"level3"
                     },
                     {
                         "name":"CPSC",
-                        "group":"C",
                         "value":303,
                         "colname":"level3"
                     }
@@ -62,31 +54,26 @@
                 [
                     {
                         "name":"MATH",
-                        "group":"C",
                         "value":104,
                         "colname":"level3"
                     },
                     {
                         "name":"MATH",
-                        "group":"A",
                         "value":105,
                         "colname":"level3"
                     },
                     {
                         "name":"MATH",
-                        "group":"B",
                         "value":223,
                         "colname":"level3"
                     },
                     {
                         "name":"MATH",
-                        "group":"B",
                         "value":226,
                         "colname":"level3"
                     },
                     {
                         "name":"MATH",
-                        "group":"B",
                         "value":307,
                         "colname":"level3"
                     }
@@ -99,31 +86,26 @@
                 [
                     {
                         "name":"COMM",
-                        "group":"C",
                         "value":101,
                         "colname":"level3"
                     },
                     {
                         "name":"COMM",
-                        "group":"A",
                         "value":291,
                         "colname":"level3"
                     },
                     {
                         "name":"COMM",
-                        "group":"B",
                         "value":290,
                         "colname":"level3"
                     },
                     {
                         "name":"COMM",
-                        "group":"B",
                         "value":292,
                         "colname":"level3"
                     },
                     {
                         "name":"COMM",
-                        "group":"B",
                         "value":202,
                         "colname":"level3"
                     }
@@ -136,7 +118,6 @@
                 [
                     {
                         "name":"STAT",
-                        "group":"D",
                         "value":302,
                         "colname":"level3"
                     }

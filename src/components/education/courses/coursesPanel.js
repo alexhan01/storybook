@@ -7,7 +7,7 @@ var data = require("../../../content/courses.json")
 function CoursesPanel() {
     return (
         <div className={styles.panel}>
-            <Treemap width={400} height={500} data={data}/>
+            <Treemap width={400} height={570} data={data}/>
         </div>
     )
 }

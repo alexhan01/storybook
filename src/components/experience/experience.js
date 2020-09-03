@@ -23,11 +23,17 @@ function Experience() {
     `)
     const experienceData = data.allMarkdownRemark.nodes[0]
 
+    const unformattedData = experienceData.frontmatter.description
+
+    const formattedData = unformattedData.split(`\n\n`).map(paragraph => `<p>${paragraph.replace(/\n/g, `<br>`)}</p>`).join(``)
+
     return (
         <div>
             <PageHeading data={experienceData.frontmatter.title}/>
-            <ContentPanel data={experienceData.frontmatter.description}/>
-            <Orgs />
+            <div className={styles.container}>
+                <ContentPanel data={formattedData}/>
+                <Orgs />
+            </div>
         </div>
     )
 }
