@@ -9,10 +9,18 @@ import ubc from "../../images/orgs/ubc.png"
 function Orgs() {
     return (
         <div className={styles.container}>
-            <img src={cahsmun} alt="CAHSMUN" className={styles.logo}/>
-            <img src={nibc} alt="NIBC" className={styles.logo}/>
-            <img src={jdc} alt="JDC" className={styles.logo}/>
-            <img src={ubc} alt="UBC" className={styles.logo}/>
+            <div className={styles.cahsmun}>
+                <img src={cahsmun} alt="CAHSMUN"/>
+            </div>
+            <div className={styles.nibc}>
+                <img src={nibc} alt="NIBC"/>
+            </div>
+            <div className={styles.jdc}>
+                <img src={jdc} alt="JDC"/>
+            </div>
+            <div className={styles.ubc}>
+                <img src={ubc} alt="UBC"/>
+            </div>
         </div>
     )
 }  

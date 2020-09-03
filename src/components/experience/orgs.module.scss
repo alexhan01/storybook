@@ -1,11 +1,47 @@
 .container {
-    // background-color: red;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    margin-top: 1em;
 }
 
-.logo {
-    margin: 2em;
+.cahsmun {
+    width: 20vw;
+    padding: 1em;
+    filter: grayscale(100%);
+}
+
+.cahsmun:hover {
+    filter: none;
+}
+
+.nibc {
+    padding: 1em;
+    width: 15vw;
+    filter: grayscale(100%);
+}
+
+.nibc:hover {
+    filter: none;
+}
+
+.jdc {
+    padding: 1em;
+    width: 15vw;
+    filter: grayscale(100%);
+}
+
+.jdc:hover {
+    filter: none;
+}
+
+.ubc {
+    padding: 1em;
+    width: 10vw;
+    filter: grayscale(100%);
+}
+
+.ubc:hover {
+    filter: none;
 }
