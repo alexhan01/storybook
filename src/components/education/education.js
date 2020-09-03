@@ -30,8 +30,10 @@ function Education() {
     return (
         <div>
             <PageHeading data={educationData.frontmatter.title}/>
-            <ContentPanel data={formattedData}/>
-            <CoursesPanel />
+            <div className={styles.container}>
+                <ContentPanel data={formattedData}/>
+                <CoursesPanel />
+            </div>
         </div>
     )
 }

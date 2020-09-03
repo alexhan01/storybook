@@ -29,8 +29,8 @@ function Treemap({ width, height, data }) {
             (root);
         
         const color = d3.scaleOrdinal()
-            .domain(["CPSC", "MATH", "STAT", "COMM"])
-            .range(["#ffc7c7", "#ffe2e2", "#000000", "#8785a2"]);
+            .domain(["Computer Science", "Mathematics", "Statistics", "Commerce"])
+            .range(["#ffc7c7", "#ffe2e2", "#d6e0f0", "#8785a2"]);
 
         const opacity = d3.scaleLinear()
             .domain([100, 400])
