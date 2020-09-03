@@ -1,12 +1,13 @@
 import React from "react"
 import Treemap from "./Treemap"
+import styles from "./coursesPanel.module.scss"
 
 var data = require("../../../content/courses.json")
 
 function CoursesPanel() {
     return (
-        <div>
-            <Treemap width={600} height={400} data={data}/>
+        <div className={styles.panel}>
+            <Treemap width={800} height={500} data={data}/>
         </div>
     )
 }

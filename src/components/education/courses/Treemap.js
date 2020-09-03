@@ -8,7 +8,6 @@ function Treemap({ width, height, data }) {
         const svg = d3.select(ref.current)
             .attr("width", width)
             .attr("height", height)
-            .style("border", "1px solid black")
     }, []);
 
     useEffect(() => {
@@ -26,12 +25,12 @@ function Treemap({ width, height, data }) {
             .size([width, height])
             .paddingTop(28)
             .paddingRight(7)
-            .paddingInner(3)
+            .paddingInner(5)
             (root);
         
         const color = d3.scaleOrdinal()
-            .domain(["boss1", "boss2", "boss3"])
-            .range(["#402D54", "#D18975", "#8FD175"]);
+            .domain(["CPSC", "MATH", "STAT", "COMM", "ECON"])
+            .range(["#402D54", "#D18975", "#8FD175", "#8FD175", "#8FD175"]);
 
         const opacity = d3.scaleLinear()
             .domain([10, 30])
@@ -76,8 +75,8 @@ function Treemap({ width, height, data }) {
             .append("text")
             .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
             .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
-            .text(function(d){ return d.data.name.replace('mister_','') })
-            .attr("font-size", "19px")
+            .text(function(d){ return d.data.name })
+            .attr("font-size", "10px")
             .attr("fill", "white")
         
         // select node values
@@ -105,19 +104,10 @@ function Treemap({ width, height, data }) {
             .text(function(d){ return d.data.name })
             .attr("font-size", "19px")
             .attr("fill",  function(d){ return color(d.data.name)} )
-
-        // add the chart heading
-        svg
-        .append("text")
-            .attr("x", 0)
-            .attr("y", 14)
-            .text("Three group leaders and 14 employees")
-            .attr("font-size", "19px")
-            .attr("fill", "grey")
     }
 
     return (
-        <div className="chart">
+        <div>
             <svg ref={ref}>
             </svg>
         </div>
