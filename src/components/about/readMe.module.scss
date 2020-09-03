@@ -1,0 +1,38 @@
+.container {
+    background-color: aliceblue;
+    height: fit-content;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.readmetext {
+    font-family: IBM Plex Mono;
+    font-style: italic;
+    color: gray;
+}
+
+.content {
+    background-color: bisque;
+}
+
+.socials {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socialicon {
+    margin: 1em;
+    background-color: azure;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    text-align: center;
+    // line-height: 2em;
+    vertical-align: middle;
+    // padding: 0.5em;
+}

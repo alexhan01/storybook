@@ -1,0 +1,12 @@
+.container {
+    margin: 0;
+    background: purple;
+}
+
+.content {
+    margin: 0;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    flex-flow: flex-start;
+}

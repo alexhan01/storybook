@@ -28,13 +28,13 @@ function Projects() {
 
     return (
         <>
-        <div>
+        <div className={styles.container}>
             <PageHeading data="Projects"/>
-        </div>
-        <div>
-            {projects.map((project) => (
-                <ProjectModule project = {project.frontmatter} />
-            ))}
+            <div className={styles.content}>
+                {projects.map((project) => (
+                    <ProjectModule project = {project.frontmatter} />
+                ))}
+            </div>
         </div>
         </>
     )

@@ -4,8 +4,6 @@ import PropTypes from "prop-types"
 
 import Logo from "./logo"
 import styles from "./navbar.module.scss"
-import { faHammer, faRocket } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 // const NavButton = ({ onClick }) => {
 //     return (
@@ -45,7 +43,8 @@ const Navbar = () => {
                                     <Link
                                         className={styles.Link}
                                         to={link.link}
-                                    >                                            {link.name}
+                                    >
+                                        {link.name}
                                     </Link>
                                 </li>
                             ))}
@@ -57,12 +56,9 @@ const Navbar = () => {
                 <div className={styles.ftr}>
                     <div className={styles.ftrelement}>
                         <p>
-                            {/* <FontAwesomeIcon icon={faHammer}/> */}
-                            &#128296; with Gatsby | &#128640; 
-                            {/* <FontAwesomeIcon icon={faRocket}/>  */}
-                            with Netlify
+                            &#128296; with Gatsby | &#128640; with Netlify
                             <br/>
-                            © {new Date().getFullYear()}
+                            Made by Alex Han | © {new Date().getFullYear()}
                         </p>
                     </div>
                 </div>
