@@ -1,9 +1,5 @@
 import React from "react"
 import styles from "./readMe.module.scss"
-
-// import { faLinkedinIn, faGithub, faMediumM } from "@fortawesome/free-brands-svg-icons"
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Profile from "./profile"
 
 function ReadMe(props) {
@@ -22,7 +18,7 @@ function ReadMe(props) {
                 <div className={styles.socials}>
                     <a href="https://linkedin.com/in/alexhan01" target="_blank" className={styles.social}>[linkedin]</a>
                     <a href="https://github.com/alexhan01" target="_blank" className={styles.social}>[github]</a>
-                    <a href="#" className={styles.social}>[resume]</a>
+                    <a target="_blank" href="../../content/static/resume.pdf" className={styles.social}>[resume]</a>
                 </div>
             </div>
             <div></div>
