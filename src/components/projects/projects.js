@@ -12,7 +12,6 @@ function Projects() {
             nodes {
                 frontmatter {
                     title
-                    date
                     github
                     description
                     techstack

@@ -1,42 +1,15 @@
-// .projectCard {
-//     // font-family: "IBM Plex Mono";
-//     background-color: palevioletred;
-//     margin: 2em;
-// }
-
-// .accordion {
-//     padding: 1em;
-//     width: 100%;
-//     text-align: left;
-//     background-color: palegoldenrod;
-// }
-
-// .panel {
-//     visibility: hidden;
-// }
-
-// .description {
-//     background: paleturquoise;
-//     margin: 1em;
-// }
-
-// .tags {
-//     background: palegreen;
-//     margin: 1em;
-// }
-
 .accordion_section {
     display: flex;
     flex-direction: column;
 }
 
 .accordion {
-    background-color: #eee;
+    background-color: aliceblue;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 1em;
+    padding-bottom: 0%;
     display: flex;
-    // align-items: flex-start;
     justify-content: space-between;
     border: none;
     outline: none;
@@ -44,7 +17,7 @@
 }
 
 .accordion:hover, .active {
-    background-color: #ccc;
+    background-color: #c2e2ff;
 }
 
 .accordion_title {
@@ -54,7 +27,7 @@
 }
 
 .accordion_icon {
-    margin-left: auto;
+    margin-left: 1em;
     transition: transform 0.6s ease;
 }
 
@@ -66,7 +39,6 @@
     background-color: white;
     overflow: hidden;
     transition: max-height 0.6s ease;
-    // max-height: 0;
 }
 
 .accordion_text {
@@ -74,4 +46,32 @@
     font-weight: 400;
     font-size: 14px;
     padding: 18px;
+}
+
+.accordion_github {
+    font-family: "IBM Plex Mono";
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #444;
+}
+
+.accordion_filler {
+    flex-grow: 4;
+}
+
+.accordion_techstack {
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+    color: #444;
+    width: 54em;
+    text-align: right;
+}
+
+.accordion_text_structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
