@@ -45,13 +45,14 @@ const Navbar = () => {
                                     <Link
                                         className={styles.Link}
                                         to={link.link}
-                                    >
-                                        {link.name}
+                                    >                                            {link.name}
                                     </Link>
                                 </li>
                             ))}
                         </ul>
                     </nav>
+                </div>
+                <div className={styles.filler}>
                 </div>
                 <div className={styles.ftr}>
                     <div className={styles.ftrelement}>
