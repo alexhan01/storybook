@@ -2,53 +2,53 @@
     "children":
         [
             {
-                "name":"CPSC",
+                "name":"Computer Science",
                 "children":
                 [
                     {
-                        "name":"Computation, Programs, and Programming",
+                        "name":"CPSC",
                         "group":"A",
                         "value":110,
                         "colname":"level3"
                     },
                     {
-                        "name":"Models of Computation",
+                        "name":"CPSC",
                         "group":"A",
                         "value":121,
                         "colname":"level3"
                     },
                     {
-                        "name":"Software Construction",
+                        "name":"CPSC",
                         "group":"C",
                         "value":210,
                         "colname":"level3"
                     },
                     {
-                        "name":"Introduction to Computer Systems",
+                        "name":"CPSC",
                         "group":"C",
                         "value":213,
                         "colname":"level3"
                     },
                     {
-                        "name":"Basic Algorithms and Data Structures",
+                        "name":"CPSC",
                         "group":"C",
                         "value":221,
                         "colname":"level3"
                     },
                     {
-                        "name":"Internet Computing",
+                        "name":"CPSC",
                         "group":"C",
                         "value":317,
                         "colname":"level3"
                     },
                     {
-                        "name":"Computer Hardware and Operating Systems",
+                        "name":"CPSC",
                         "group":"C",
                         "value":313,
                         "colname":"level3"
                     },
                     {
-                        "name":"Numerical Approximation and Discretization",
+                        "name":"CPSC",
                         "group":"C",
                         "value":303,
                         "colname":"level3"
@@ -57,35 +57,35 @@
                 "colname":"level2"
             },
             {
-                "name":"MATH",
+                "name":"Mathematics",
                 "children":
                 [
                     {
-                        "name":"Differential Calculus",
+                        "name":"MATH",
                         "group":"C",
                         "value":104,
                         "colname":"level3"
                     },
                     {
-                        "name":"Integral Calculus",
+                        "name":"MATH",
                         "group":"A",
                         "value":105,
                         "colname":"level3"
                     },
                     {
-                        "name":"Honours Linear Algebra",
+                        "name":"MATH",
                         "group":"B",
                         "value":223,
                         "colname":"level3"
                     },
                     {
-                        "name":"Honours Multivariable Calculus",
+                        "name":"MATH",
                         "group":"B",
                         "value":226,
                         "colname":"level3"
                     },
                     {
-                        "name":"Applied Linear Algebra",
+                        "name":"MATH",
                         "group":"B",
                         "value":307,
                         "colname":"level3"
@@ -94,35 +94,35 @@
                 "colname":"level2"
             },
             {
-                "name":"COMM",
+                "name":"Commerce",
                 "children":
                 [
                     {
-                        "name":"Business Fundamentals",
+                        "name":"COMM",
                         "group":"C",
                         "value":101,
                         "colname":"level3"
                     },
                     {
-                        "name":"Statistics in Business",
+                        "name":"COMM",
                         "group":"A",
                         "value":291,
                         "colname":"level3"
                     },
                     {
-                        "name":"Quantitative Decision Making",
+                        "name":"COMM",
                         "group":"B",
                         "value":290,
                         "colname":"level3"
                     },
                     {
-                        "name":"Management and Organizational Behaviour",
+                        "name":"COMM",
                         "group":"B",
                         "value":292,
                         "colname":"level3"
                     },
                     {
-                        "name":"Career Fundamentals",
+                        "name":"COMM",
                         "group":"B",
                         "value":202,
                         "colname":"level3"
@@ -131,11 +131,11 @@
                 "colname":"level2"
             },
             {
-                "name":"STAT",
+                "name":"Statistics",
                 "children":
                 [
                     {
-                        "name":"Introduction to Probability",
+                        "name":"STAT",
                         "group":"D",
                         "value":302,
                         "colname":"level3"

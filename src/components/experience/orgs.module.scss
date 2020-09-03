@@ -1,0 +1,11 @@
+.container {
+    // background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    margin: 2em;
+}

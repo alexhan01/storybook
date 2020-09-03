@@ -5,7 +5,7 @@ function ContentPanel(props) {
     return (
         <>
             <div className={styles.content}>
-                <p>{props.data}</p>
+                <div dangerouslySetInnerHTML={{__html: props.data}} />
             </div>
         </>
     )

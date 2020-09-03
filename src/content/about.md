@@ -15,5 +15,5 @@ I’m Alex, an undergraduate student at UBC pursuing a Combined Major in Compute
 Feel free to check out my resume or look around my Github! You can also reach me via email at alexhan0324@gmail.com. 
 
 
-Outside of work, I love playing volleyball and hiking around various trails in BC. I also avidly follow basketball and soccer (Come On Your Spurs!). "
+Outside of work, I love playing volleyball and hiking around various trails in BC. I also avidly follow basketball and soccer (Come On Your Spurs!)."
 ---

@@ -23,10 +23,14 @@ function Education() {
     `)
     const educationData = data.allMarkdownRemark.nodes[0]
 
+    const unformattedData = educationData.frontmatter.description
+
+    const formattedData = unformattedData.split(`\n\n`).map(paragraph => `<p>${paragraph.replace(/\n/g, `<br>`)}</p>`).join(``)
+
     return (
         <div>
             <PageHeading data={educationData.frontmatter.title}/>
-            <ContentPanel data={educationData.frontmatter.description}/>
+            <ContentPanel data={formattedData}/>
             <CoursesPanel />
         </div>
     )

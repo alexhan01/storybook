@@ -73,11 +73,11 @@ function Treemap({ width, height, data }) {
         // add the text
         nodeText.enter()
             .append("text")
-            .attr("x", function(d){ return d.x0+15})    // +10 to adjust position (more right)
+            .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
             .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
             .text(function(d){ return d.data.name })
-            .attr("font-size", "10px")
-            .attr("fill", "white")
+            .attr("font-size", "14px")
+            .attr("fill", "black")
         
         // select node values
         var nodeVals = svg
@@ -87,11 +87,11 @@ function Treemap({ width, height, data }) {
         // add values
         nodeVals.enter()
             .append("text")
-            .attr("x", function(d){ return d.x0+15})    // +10 to adjust position (more right)
+            .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
             .attr("y", function(d){ return d.y0+35})    // +20 to adjust position (lower)
             .text(function(d){ return d.data.value })
-            .attr("font-size", "11px")
-            .attr("fill", "white")
+            .attr("font-size", "14px")
+            .attr("fill", "black")
                 
         // add the parent node titles
         svg
@@ -99,7 +99,7 @@ function Treemap({ width, height, data }) {
             .data(root.descendants().filter(function(d){return d.depth==1}))
             .enter()
             .append("text")
-                .attr("x", function(d){ return d.x0})
+                .attr("x", function(d){ return d.x0+10})
                 .attr("y", function(d){ return d.y0+21})
                 .text(function(d){ return d.data.name })
                 .attr("font-size", "19px")
