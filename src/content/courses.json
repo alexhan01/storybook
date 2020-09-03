@@ -81,6 +81,18 @@
                 "colname":"level2"
             },
             {
+                "name":"Statistics",
+                "children":
+                [
+                    {
+                        "name":"STAT",
+                        "value":302,
+                        "colname":"level3"
+                    }
+                ],
+                "colname":"level2"
+            },
+            {
                 "name":"Commerce",
                 "children":
                 [
@@ -107,18 +119,6 @@
                     {
                         "name":"COMM",
                         "value":202,
-                        "colname":"level3"
-                    }
-                ],
-                "colname":"level2"
-            },
-            {
-                "name":"Statistics",
-                "children":
-                [
-                    {
-                        "name":"STAT",
-                        "value":302,
                         "colname":"level3"
                     }
                 ],

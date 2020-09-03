@@ -76,7 +76,8 @@ function Treemap({ width, height, data }) {
             .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
             .attr("y", function(d){ return d.y0+20})    // +20 to adjust position (lower)
             .text(function(d){ return d.data.name })
-            .attr("font-size", "14px")
+            .attr("font-size", "11px")
+            .attr("font-family", "IBM Plex Mono")
             .attr("fill", "black")
         
         // select node values
@@ -90,7 +91,8 @@ function Treemap({ width, height, data }) {
             .attr("x", function(d){ return d.x0+5})    // +10 to adjust position (more right)
             .attr("y", function(d){ return d.y0+35})    // +20 to adjust position (lower)
             .text(function(d){ return d.data.value })
-            .attr("font-size", "14px")
+            .attr("font-size", "11px")
+            .attr("font-family", "IBM Plex Mono")
             .attr("fill", "black")
                 
         // add the parent node titles
@@ -102,7 +104,8 @@ function Treemap({ width, height, data }) {
                 .attr("x", function(d){ return d.x0+10})
                 .attr("y", function(d){ return d.y0+21})
                 .text(function(d){ return d.data.name })
-                .attr("font-size", "19px")
+                .attr("font-size", "15px")
+                .attr("font-family", "IBM Plex Mono")
                 .attr("fill",  function(d){ return color(d.data.name) })
     }
 

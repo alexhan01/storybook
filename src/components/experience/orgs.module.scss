@@ -7,32 +7,35 @@
 }
 
 .cahsmun {
-    width: 20vw;
+    width: 15vw;
     padding: 1em;
     filter: grayscale(100%);
 }
 
 .cahsmun:hover {
+    transition: 0.35s;
     filter: none;
 }
 
 .nibc {
     padding: 1em;
-    width: 15vw;
+    width: 10vw;
     filter: grayscale(100%);
 }
 
 .nibc:hover {
+    transition: 0.35s;
     filter: none;
 }
 
 .jdc {
     padding: 1em;
-    width: 15vw;
+    width: 10vw;
     filter: grayscale(100%);
 }
 
 .jdc:hover {
+    transition: 0.35s;
     filter: none;
 }
 
@@ -43,5 +46,6 @@
 }
 
 .ubc:hover {
+    transition: 0.35s;
     filter: none;
 }
