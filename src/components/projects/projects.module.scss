@@ -1,12 +1,18 @@
 .container {
     margin: 0;
-    background: purple;
+    // background: purple;
 }
 
 .content {
     margin: 0;
-    background: yellow;
+    // background: yellow;
     display: flex;
     flex-direction: column;
     flex-flow: flex-start;
 }
+
+// * {
+//     box-sizing: border-box;
+//     margin: 0;
+//     padding: 0;
+// }

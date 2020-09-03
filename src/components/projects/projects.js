@@ -12,9 +12,10 @@ function Projects() {
             nodes {
                 frontmatter {
                     title
+                    date
                     github
                     description
-                    tags
+                    techstack
                 }
                 fields {
                     slug

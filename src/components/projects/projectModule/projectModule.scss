@@ -1,0 +1,77 @@
+// .projectCard {
+//     // font-family: "IBM Plex Mono";
+//     background-color: palevioletred;
+//     margin: 2em;
+// }
+
+// .accordion {
+//     padding: 1em;
+//     width: 100%;
+//     text-align: left;
+//     background-color: palegoldenrod;
+// }
+
+// .panel {
+//     visibility: hidden;
+// }
+
+// .description {
+//     background: paleturquoise;
+//     margin: 1em;
+// }
+
+// .tags {
+//     background: palegreen;
+//     margin: 1em;
+// }
+
+.accordion_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    display: flex;
+    // align-items: flex-start;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    transition: background-color 0.6s ease;
+}
+
+.accordion:hover, .active {
+    background-color: #ccc;
+}
+
+.accordion_title {
+    font-family: "IBM Plex Mono";
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.accordion_icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.accordion_content {
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+    // max-height: 0;
+}
+
+.accordion_text {
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+}
