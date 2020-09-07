@@ -6,7 +6,7 @@ import styles from "./profile.module.scss"
 const Profile = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "profile.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
