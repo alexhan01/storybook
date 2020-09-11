@@ -17,8 +17,8 @@ function ReadMe(props) {
                     <div dangerouslySetInnerHTML={{__html: props.data}} />
                 </div>
                 <div className={styles.socials}>
-                    <a href="https://linkedin.com/in/alexhan01" target="_blank" className={styles.social}>[linkedin]</a>
-                    <a href="https://github.com/alexhan01" target="_blank" className={styles.social}>[github]</a>
+                    <a href="https://linkedin.com/in/alexhan01" target="_blank" rel="noreferrer" className={styles.social}>[linkedin]</a>
+                    <a href="https://github.com/alexhan01" target="_blank" rel="noreferrer" className={styles.social}>[github]</a>
                     <a target="_blank" href={resume} target="_blank" rel="noreferrer" className={styles.social}>[resume]</a>
                 </div>
             </div>

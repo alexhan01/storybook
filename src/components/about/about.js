@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import styles from "./about.module.scss"
+// import styles from "./about.module.scss"
 import ReadMe from "./readMe"
 
 function About() {

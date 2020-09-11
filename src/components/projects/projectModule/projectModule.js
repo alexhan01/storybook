@@ -28,7 +28,7 @@ function ProjectModule(props) {
             <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
                 <p className="accordion_title">{props.project.title}</p>
                 <div className="accordion_filler"></div>
-                <a href={props.project.github} target="_blank" className="accordion_github">[github]</a>
+                <a href={props.project.github} target="_blank" rel="noreferrer" className="accordion_github">[github]</a>
                 <Chevron className={`${setRotate}`} width={10} fill={"#777"}/>
             </button>
             <div ref={content} style={{maxHeight: `${setHeight}`}} className="accordion_content">

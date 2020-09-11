@@ -1,31 +1,12 @@
-import React, { useState } from "react"
+import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
-import Navbar from "./nav/navbar"
 import "./layout.css"
 import Sidebar from "./nav/sidebar"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-          menuLinks {
-            name
-            link
-          }
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      {/* <Navbar
-        menuLinks={data.site.siteMetadata.menuLinks}
-      /> */}
       <Sidebar />
       <div
         style={{
