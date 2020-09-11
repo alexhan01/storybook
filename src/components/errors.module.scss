@@ -1,0 +1,27 @@
+.main {
+    margin: 0;
+    padding: 0;
+    height: 96vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: space-between;
+}
+
+.calvin {
+    margin-left: 70%;
+    width: 30%;
+    height: auto;
+}
+
+.filler {
+    padding: 1em;
+    flex-grow: 2;
+}
+
+.message {
+    margin-top: 20vh;
+    font-family: "Kirang Haerang";
+    font-size: 2em;
+    text-align: center;
+}
