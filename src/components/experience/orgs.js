@@ -5,6 +5,7 @@ import cahsmun from "../../images/orgs/cahsmun.jpg"
 import nibc from "../../images/orgs/NIBC.png"
 import jdc from "../../images/orgs/sauderjdcwest.png"
 import ubc from "../../images/orgs/ubc.png"
+import lpad from "../../images/orgs/launchpad.png"
 
 function Orgs() {
     return (
@@ -20,6 +21,9 @@ function Orgs() {
             </div>
             <div className={styles.ubc}>
                 <img src={ubc} alt="UBC"/>
+            </div>
+            <div className={styles.lpad}>
+                <img src={lpad} alt="Launch Pad"/>
             </div>
         </div>
     )

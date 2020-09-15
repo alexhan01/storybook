@@ -49,3 +49,14 @@
     transition: 0.35s;
     filter: none;
 }
+
+.lpad {
+    padding: 1em;
+    width: 10vw;
+    filter: grayscale(100%);
+}
+
+.lpad:hover {
+    transition: 0.35s;
+    filter: none;
+}
