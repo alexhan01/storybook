@@ -64,13 +64,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-            {
-              family: `Kirang Haerang`,
-              variants: [`400`, `700`]
-            },
+            `Kirang Haerang`
+            // variants: [`400`, `700`]
         ],
       },
     },
