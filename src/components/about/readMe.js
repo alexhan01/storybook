@@ -19,7 +19,7 @@ function ReadMe(props) {
                 <div className={styles.socials}>
                     <a href="https://linkedin.com/in/alexhan01" target="_blank" rel="noreferrer" className={styles.social}>[linkedin]</a>
                     <a href="https://github.com/alexhan01" target="_blank" rel="noreferrer" className={styles.social}>[github]</a>
-                    <a target="_blank" href={resume} target="_blank" rel="noreferrer" className={styles.social}>[resume]</a>
+                    {/* <a target="_blank" href={resume} target="_blank" rel="noreferrer" className={styles.social}>[resume]</a> */}
                 </div>
             </div>
             <div></div>
