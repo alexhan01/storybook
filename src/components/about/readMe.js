@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./readMe.module.scss"
 import Profile from "./profile"
-import resume from "../../../static/resume.pdf"
+// import resume from "../../../static/resume.pdf"
 
 function ReadMe(props) {
     return (
